@@ -31,18 +31,18 @@
   🚩 If we made it outside the for loop, it means we didn't find the employee in the file<br>
 </details>
 
-## In main.py
+## In functions.py
 
 <details>
   <summary>
     ✅ Edit the elif block corresponding to lookup employee
   </summary>
+  Inside the employee_operations() function body
   Edit the function call to lookup_employee to receive the found flag in a variable of your choice<br>
   Check if the above variable is False, if it is, print <code>Employee Not Found</code><br>
   No else block necessary for now
 </details>
 
-## In functions.py
 
 <details>
   <summary>
