@@ -14,7 +14,7 @@
   </summary>
   Inside the lookup_employee function<br>
 
-  - Remove the print statement that prints the employee id<br>
+  - Remove the two print statements<br>
   - Open the file employees.txt in read mode and store the file object in a variable of your choice<br>
   - Using a for loop, go over the file using the file object above<br>
   - Using readline() methods, read the rest of the employee data into variables
@@ -25,22 +25,37 @@
     <code>Name: {name}</code><br>
     <code>Department: {department}</code><br>
     <code>Salary: {salary}</code><br>
-    &ensp;- write a statement that sets the found flag to boolean true<br>
-    &ensp;- write a statement to break out of the for loop<br>
-  - Outside the for loop, return the boolean flag false<br>
+    &ensp;- write a statement to close the file<br>
+    &ensp;- write a return statement that returns the boolean true<br>
+  - Outside the for loop, return the boolean false<br>
   🚩 If we made it outside the for loop, it means we didn't find the employee in the file<br>
 </details>
-
-## In functions.py
 
 <details>
   <summary>
     ✅ Edit the elif block corresponding to lookup employee
   </summary>
   Inside the employee_operations() function body
-  Edit the function call to lookup_employee to receive the found flag in a variable of your choice<br>
+  Edit the function call to lookup_employee to receive the booloean in a variable of your choice<br>
   Check if the above variable is False, if it is, print <code>Employee Not Found</code><br>
   No else block necessary for now
+</details>
+
+
+<details>
+  <summary>
+    ✅ Modify display_employees
+  </summary>
+  Inside the display_employees function<br>
+  <ul>
+  <li>Comment out the four variable assignments</li>
+  <li>Before the print statement, write a statement to open the file employees.txt in read mode and store the file object in a variable of your choice</li>
+  <li>Using a for loop, go over the file using the file object</li>
+  <li>Using appropriate number of readline() methods, read the rest of the employee data into variables (use the same variable names as the ones you have commented above)</li>
+  <li>Move the print statement you already wrote (using the f-literal) into the for loop</li>
+  <li>Outside the for loop,<br>
+  Write statement to close the file</li>
+  </ul>
 </details>
 
 
@@ -71,7 +86,7 @@
  - Outside the for loop,<br>
  - Write statements to close both the files<br>
  - Import the os module (make sure you write this statement at the very top of the file, outside any function definitions)
- - Using the os module, write statements to delete the employees.txt file and rename the temp.txt to employees.txt
+ - Using the os module, write statements to delete the employees.txt file and rename the temp.txt to employees.txt - before you do this make sure you backup your employees.txt file
 </details>
 
 
@@ -107,20 +122,4 @@
 
 
 
-<details>
-  <summary>
-    ✅ Modify display_employees
-  </summary>
-  Inside the display_employees function<br>
-  <ul>
-  <li>Comment out the four variable assignments</li>
-  <li>Before the print statement, write a statement to open the file employees.txt in read mode and store the file object in a variable of your choice</li>
-  
-  
-  <li>Using a for loop, go over the file using the file object</li>
-  <li>Using appropriate number of readline() methods, read the rest of the employee data into variables (use the same variable names as the ones you have commented above)</li>
-  <li>Move the print statement you already wrote (using the f-literal) into the for loop</li>
-  <li>Outside the for loop,<br>
-  Write statement to close the file</li>
-  </ul>
-</details>
+
