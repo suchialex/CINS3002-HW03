@@ -52,6 +52,8 @@
   <li>Before the print statement, write a statement to open the file employees.txt in read mode and store the file object in a variable of your choice</li>
   <li>Using a for loop, go over the file using the file object</li>
   <li>Using appropriate number of readline() methods, read the rest of the employee data into variables (use the same variable names as the ones you have commented above)</li>
+  <li>Strip the newline characters from all the variables</li>
+    <li>Convert the salary to a float and store in the same variable ⏩ Tutorial: 2-10a</li>
   <li>Move the print statement you already wrote (using the f-literal) into the for loop</li>
   <li>Outside the for loop,<br>
   Write statement to close the file</li>
