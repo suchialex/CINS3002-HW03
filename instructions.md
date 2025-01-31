@@ -17,7 +17,7 @@
   - Remove the two print statements<br>
   - Open the file employees.txt in read mode and store the file object in a variable of your choice<br>
   - Using a for loop, go over the file using the file object above<br>
-  - Using readline() methods, read the rest of the employee data into variables
+  - Using readline() methods, read the rest of the employee data into variables and strip the newline character<br>
   - Using an if statement check if the employee id passed as a parameter is equal to the employee id coming from the file<br>
   💡 Hint: Don't forget to strip the newline character<br>
   - If they are equal, in the if block,<br>
