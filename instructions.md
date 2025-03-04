@@ -1,4 +1,5 @@
 # Instructions
+
 <details>
   <summary>
     ✅ Copy code from CW02
@@ -120,6 +121,89 @@
  - Write statements to close both the files<br>
  - Import the os module (make sure you write this statement at the very top of the file, outside any function definitions)
  - Using the os module, write statements to delete the employees.txt file and rename the temp.txt to employees.txt
+</details>
+
+# Instructions
+
+
+
+<details>
+  <summary>
+    ✅ Code improvement
+  </summary>
+
+  - Wherever you have <code>if found == True:</code> replace it with <code>if found:</code>
+  - Wherever you have <code>if found == False:</code> replace it with <code>if not found:</code>
+</details>
+
+
+## In functions.py
+
+
+<details>
+  <summary>
+    ✅ Modify update_employee_name
+  </summary>
+  
+  - Follow the same code logic as the other update functions from HW03 and write code to modify an employee name given their employee ID
+  - 🚩 Remember! Employee name is employee first name, space and employee last name. So you will be calling two validate functions and concatenating those values appropriately to get the full new name
+  - 📜 Execute to make sure it works correctly
+</details>
+
+
+<details>
+  <summary>
+    ✅ Modify delete_employee
+  </summary>
+
+  - Write code to delete employee from the file, given the employee ID
+  - This will be similar to that of any of the update functions, except there will be **no else block**
+  - 📜 Execute to make sure it works correctly
+</details>
+
+## In validations.py
+
+<details>
+  <summary>
+    ✅ Modify generate_employee_id()
+  </summary>
+  This function accepts no parameters but returns a string<br>
+  The objective is to open the employees file and lookup the last employee id and add 1 to it to get the next employee id (for a new employee)
+
+  - Delete the input statement
+  - Open the employees file in read mode and get the file object
+  - Using the file object, start a for loop, choose a loop variable name
+  - Place three readline statements inside the for loop to read every 4th line in the for loop variable
+  - Outside the for loop, convert the for loop variable to int and store in the same variable or another variable (The loop variable will store the last employee ID of the file)
+  - Add one to the above variable and **convert it to string**
+  - Return the above string
+  - 📜 Execute the code and test Add Employee and make sure it is being calculated correctly
+</details>
+
+
+## In functions.py and validations.py
+
+<details>
+  <summary>
+    ✅ Exception handling
+  </summary>
+
+  - Wherever you are opening the file in read mode (we open file in read mode in delete_employee, lookup_employee, display_employees, generate_employee_id and all the update functions)
+  - Place the open statement in try suite
+  - Write an except clause to print, `File Not Found`
+  - Move the remaining code **in that block**, into the else suite
+  - 💡 "in that block" means, if your try is inside an if block or a while block, then your except and else clause also will be inside the same block
+  - You will receive points if you can handle exceptions in at least three functions. If you run out of time, the remaining must be done at home before the next assignment
+</details>
+
+## Hierarchy Chart
+
+<details>
+  <summary>
+    🚩 Hierarchy Chart
+  </summary>
+
+  - Draw hierarchy chart to reflect the updated code. You may hand draw or use any online visual tool like (draw.io)
 </details>
 
 
