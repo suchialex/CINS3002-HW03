@@ -226,6 +226,19 @@
   - Draw hierarchy chart to reflect the updated code. You may hand draw or use any online visual tool like (draw.io)
 </details>
 
+## Copy code to replit
+
+<details>
+  <summary>
+    ✅ Copy code to replit
+  </summary>
+  
+  - Copy the contents of functions.py, validations.py and employees.txt to replit under folder hw03
+  - Comment out the existing import statement and code in main function body
+  - Copy and paste the import statement and code from main.py in your PyCharm Project
+  - Submit the URL on Canvas assignment
+</details>
+
 
 
 
